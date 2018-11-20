@@ -11,8 +11,8 @@ var rlp = ethUtil.rlp
 var injectedProvider
 
 var web3
-if (typeof window !== 'undefined' && typeof window.web3 !== 'undefined') {
-  injectedProvider = window.web3.currentProvider
+if (typeof window !== 'undefined' && typeof window.dexon !== 'undefined') {
+  injectedProvider = dexon
   web3 = new Web3(injectedProvider)
 } else {
   web3 = new Web3(new Web3.providers.HttpProvider('http://localhost:8545'))

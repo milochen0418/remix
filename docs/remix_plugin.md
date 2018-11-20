@@ -22,7 +22,7 @@ A plugin declaration is a JSON value which contains the properties `url` and `ti
 
 Loading / Registering a plugin in Remix IDE can be done:
 
- - Creating a PR which add a new entry: https://github.com/ethereum/remix-ide/blob/master/src/app/plugin/plugins.js , the plugin can then be loaded directly from remix IDE with a single click.
+ - Creating a PR which add a new entry: https://github.com/dexon-foundation/remix-ide/blob/master/src/app/plugin/plugins.js , the plugin can then be loaded directly from remix IDE with a single click.
  - In the settings tab, paste a plugin declaration in the plugin section and hit load.
  - Load Remix IDE with the following url parameters: `pluginurl` and `plugintitle`
 

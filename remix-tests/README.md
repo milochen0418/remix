@@ -1,7 +1,7 @@
 Remix-Tests
 ---
 
-> Tests for the Ethereum tool suite [Remix](https://github.com/ethereum/remix)
+> Tests for the Ethereum tool suite [Remix](https://github.com/dexon-foundation/remix)
 
 ### Installation
 

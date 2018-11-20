@@ -5,7 +5,7 @@ Accessing a shared folder in Remix IDE using Remixd
 
 Remixd is an npm module. Its purpose is to give the remix web application access to a folder from your local computer.
 
-The code of Remixd can be checked out `here <https://github.com/ethereum/remixd>`_ .
+The code of Remixd can be checked out `here <https://github.com/dexon-foundation/remixd>`_ .
 
 Remixd can be globally installed using the following command: ``npm install -g remixd``.
 

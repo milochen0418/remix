@@ -6,7 +6,7 @@
 
 Ethereum tools for the web.
 
-*Are you looking for the Remix IDE? Follow [this link](https://github.com/ethereum/remix-ide)!*
+*Are you looking for the Remix IDE? Follow [this link](https://github.com/dexon-foundation/remix-ide)!*
 
 + [What is Remix?](#what-is-remix)
 + [How to use Remix?](#how-to-use)
@@ -17,7 +17,7 @@ Ethereum tools for the web.
 
 **Remix** is a suite of tools to interact with the Ethereum blockchain in order to debug transactions, stored in this Git repository. A Remix transaction Web debugger is available [here](http://remix.ethereum.org), and its source code is part of this repository.
 
-The **Remix IDE** is an IDE for Solidity dApp developers, powered by Remix. The Remix IDE repository **is available [here](https://github.com/ethereum/remix-ide)**, and an online version is available at https://remix.ethereum.org.
+The **Remix IDE** is an IDE for Solidity dApp developers, powered by Remix. The Remix IDE repository **is available [here](https://github.com/dexon-foundation/remix-ide)**, and an online version is available at https://remix.ethereum.org.
 
 For more, check out the [Remix documentation on ReadTheDocs](https://remix.readthedocs.io/en/latest/).
 
@@ -50,7 +50,7 @@ Remix is built out of several different modules:
 + [`remix-lib`](remix-lib/README.md)
 + [`remix-debug`](remix-debugger/README.md) is now *deprecated*. It contains the debugger.
 + [`remix-tests`](remix-tests/README.md) contains our tests.
-+ [`remixd`](https://github.com/ethereum/remixd/tree/master) CLI which allow accessing local element from Remix IDE (see https://remix.readthedocs.io/en/latest/tutorial_remixd_filesystem.html)
++ [`remixd`](https://github.com/dexon-foundation/remixd/tree/master) CLI which allow accessing local element from Remix IDE (see https://remix.readthedocs.io/en/latest/tutorial_remixd_filesystem.html)
 
 Each generally has their own npm package and test suite, as well as basic documentation.
 

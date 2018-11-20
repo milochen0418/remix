@@ -13,7 +13,7 @@ The Remix Debugger is a webapp to debug the Ethereum VM and transactions.
 Make sure Node is [installed on your setup](https://docs.npmjs.com/getting-started/installing-node), and that a [local `geth`/`eth` node is running](../README.md#how-to-use).
 
 ```bash
-git clone https://github.com/ethereum/remix
+git clone https://github.com/dexon-foundation/remix
 cd remix/remix-debugger
 npm install
 ```

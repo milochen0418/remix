@@ -9,7 +9,7 @@ git config user.email "builds@ethereum.org"
 git checkout --orphan gh-pages
 git rm --cached -r .
 echo "# Automatic build" > README.md
-echo "Built website from {$SHA}. See https://github.com/ethereum/remix/ for details." >> README.md
+echo "Built website from {$SHA}. See https://github.com/dexon-foundation/remix/ for details." >> README.md
 # -f is needed because "build" is part of .gitignore
 
 # copying file to the root folder

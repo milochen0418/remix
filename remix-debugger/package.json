@@ -75,14 +75,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ethereum/remix.git"
+    "url": "git+https://github.com/dexon-foundation/remix.git"
   },
   "author": "cpp-ethereum team",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ethereum/remix/issues"
+    "url": "https://github.com/dexon-foundation/remix/issues"
   },
-  "homepage": "https://github.com/ethereum/remix#readme",
+  "homepage": "https://github.com/dexon-foundation/remix#readme",
   "standard": {
     "ignore": [
       "node_modules/*",
@@ -112,6 +112,9 @@
       "transform-es2015-block-scoping",
       "transform-object-assign"
     ]
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "browserify": {
     "transform": [

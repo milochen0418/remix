@@ -217,7 +217,7 @@ function ExecutionContext () {
     if (this.getProvider() !== 'vm') {
       web3.eth.getBlock('latest', (err, block) => {
         if (!err) {
-          // we can't use the blockGasLimit cause the next blocks could have a lower limit : https://github.com/ethereum/remix/issues/506
+          // we can't use the blockGasLimit cause the next blocks could have a lower limit : https://github.com/dexon-foundation/remix/issues/506
           this.blockGasLimit = (block && block.gasLimit) ? Math.floor(block.gasLimit - (5 * block.gasLimit) / 1024) : this.blockGasLimitDefault
         } else {
           this.blockGasLimit = this.blockGasLimitDefault

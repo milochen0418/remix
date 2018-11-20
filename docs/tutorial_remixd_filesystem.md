@@ -5,7 +5,7 @@ Access your local filesystem by using remixd
 application access to a folder from your local computer.
 
 The code of `remixd` can be checked out
-[here](https://github.com/ethereum/remixd) .
+[here](https://github.com/dexon-foundation/remixd) .
 
 `remixd` can be globally installed using the following command:
 `npm install -g remixd`.

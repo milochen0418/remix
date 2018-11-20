@@ -3,7 +3,7 @@ var tape = require('tape')
 var txFormat = require('../src/execution/txFormat')
 var txHelper = require('../src/execution/txHelper')
 var util = require('../src/util')
-var compiler = require('solc')
+var compiler = require('@dexon-foundation/dsolc')
 var compilerInput = require('../src/helpers/compilerHelper').compilerInput
 var executionContext = require('../src/execution/execution-context')
 

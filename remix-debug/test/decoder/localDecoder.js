@@ -1,10 +1,10 @@
 'use strict'
 var tape = require('tape')
-var compiler = require('solc')
+var compiler = require('@dexon-foundation/dsolc')
 var intLocal = require('./contracts/intLocal')
 var miscLocal = require('./contracts/miscLocal')
 var structArrayLocal = require('./contracts/structArrayLocal')
-var remixLib = require('remix-lib')
+var remixLib = require('@dexon-foundation/remix-lib')
 var vmCall = require('./vmCall')
 var intLocalTest = require('./localsTests/int')
 var miscLocalTest = require('./localsTests/misc')

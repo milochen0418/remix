@@ -2,7 +2,7 @@
 var tape = require('tape')
 var sourceMapping = require('./resources/sourceMapping')
 var SourceMappingDecoder = require('../src/sourceMappingDecoder')
-var compiler = require('solc')
+var compiler = require('@dexon-foundation/dsolc')
 var compilerInput = require('../src/helpers/compilerHelper').compilerInput
 
 tape('SourceMappingDecoder', function (t) {

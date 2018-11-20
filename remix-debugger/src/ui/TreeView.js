@@ -28,7 +28,7 @@ var css = csjs`
   }
 `
 
-var remixLib = require('remix-lib')
+var remixLib = require('@dexon-foundation/remix-lib')
 var EventManager = remixLib.EventManager
 
 /**

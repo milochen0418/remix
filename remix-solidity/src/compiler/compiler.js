@@ -1,13 +1,13 @@
 'use strict'
 
-var solc = require('solc/wrapper')
-var solcABI = require('solc/abi')
+var solc = require('@dexon-foundation/dsolc/wrapper')
+var solcABI = require('@dexon-foundation/dsolc/abi')
 
 var webworkify = require('webworkify')
 
 var compilerInput = require('./compiler-input')
 
-var remixLib = require('remix-lib')
+var remixLib = require('@dexon-foundation/remix-lib')
 var EventManager = remixLib.EventManager
 
 var txHelper = require('./txHelper')
@@ -75,7 +75,7 @@ function Compiler (handleImportCall) {
       var compiler
       var userAgent = (typeof (navigator) !== 'undefined') && navigator.userAgent ? navigator.userAgent.toLowerCase() : '-'
       if (typeof (window) === 'undefined' || userAgent.indexOf(' electron/') > -1) {
-        compiler = require('solc')
+        compiler = require('@dexon-foundation/dsolc')
       } else {
         compiler = solc(window.Module)
       }

@@ -1,5 +1,5 @@
 'use strict'
-var AstWalker = require('remix-lib').AstWalker
+var AstWalker = require('@dexon-foundation/remix-lib').AstWalker
 var list = require('./modules/list')
 
 function staticAnalysisRunner () {

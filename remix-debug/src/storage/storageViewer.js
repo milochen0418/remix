@@ -1,5 +1,5 @@
 'use strict'
-var remixLib = require('remix-lib')
+var remixLib = require('@dexon-foundation/remix-lib')
 var util = remixLib.util
 var mappingPreimages = require('./mappingPreimages')
 

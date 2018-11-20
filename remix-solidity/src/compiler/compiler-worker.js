@@ -1,6 +1,6 @@
 'use strict'
 
-var solc = require('solc/wrapper')
+var solc = require('@dexon-foundation/dsolc/wrapper')
 
 var compileJSON = function () { return '' }
 var missingInputs = []

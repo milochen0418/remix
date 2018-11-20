@@ -1,10 +1,10 @@
 'use strict'
 var TxBrowser = require('./TxBrowser')
 var StepManager = require('./StepManager')
-var remixCore = require('remix-core')
+var remixCore = require('@dexon-foundation/remix-debug')
 var TraceManager = remixCore.trace.TraceManager
 var VmDebugger = require('./VmDebugger')
-var remixLib = require('remix-lib')
+var remixLib = require('@dexon-foundation/remix-lib')
 var global = remixLib.global
 var init = remixLib.init
 var executionContext = remixLib.execution.executionContext
@@ -14,7 +14,7 @@ var csjs = require('csjs-inject')
 var Web3Providers = remixLib.vm.Web3Providers
 var DummyProvider = remixLib.vm.DummyProvider
 var CodeManager = remixCore.code.CodeManager
-var remixSolidity = require('remix-solidity')
+var remixSolidity = require('@dexon-foundation/remix-solidity')
 var SolidityProxy = remixSolidity.SolidityProxy
 var InternalCallTree = remixSolidity.InternalCallTree
 

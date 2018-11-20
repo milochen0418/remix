@@ -1,6 +1,6 @@
 'use strict'
 var DropdownPanel = require('./DropdownPanel')
-var remixCore = require('remix-core')
+var remixCore = require('@dexon-foundation/remix-debug')
 var StorageViewer = remixCore.storage.StorageViewer
 var yo = require('yo-yo')
 

@@ -1,12 +1,12 @@
 var test = require('tape')
-var remixLib = require('remix-lib')
+var remixLib = require('@dexon-foundation/remix-lib')
 
 var StatRunner = require('../../src/solidity-analyzer')
 var compilerInput = remixLib.helpers.compiler.compilerInput
 
 const niv = require('npm-install-version')
-niv.install('solc@0.4.24')
-var compiler = niv.require('solc@0.4.24')
+niv.install('@dexon-foundation/dsolc@0.4.24')
+var compiler = niv.require('@dexon-foundation/dsolc@0.4.24')
 
 var fs = require('fs')
 var path = require('path')

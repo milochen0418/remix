@@ -1,5 +1,5 @@
 var async = require('async')
-var remixLib = require('remix-lib')
+var remixLib = require('@dexon-foundation/remix-lib')
 
 function deployAll (compileResult, web3, callback) {
   let compiledObject = {}

@@ -1,4 +1,4 @@
-var RemixLib = require('remix-lib')
+var RemixLib = require('@dexon-foundation/remix-lib')
 var executionContext = RemixLib.execution.executionContext
 var processTx = require('./txProcess.js')
 

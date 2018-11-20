@@ -1,5 +1,5 @@
 {
-  "name": "remix-debugger",
+  "name": "@dexon-foundation/remix-debugger",
   "version": "0.1.9",
   "description": "Ethereum IDE and tools for the web",
   "contributors": [
@@ -14,6 +14,10 @@
   ],
   "main": "./index.js",
   "devDependencies": {
+    "@dexon-foundation/dsolc": "^0.4.24",
+    "@dexon-foundation/remix-debug": "^0.0.15",
+    "@dexon-foundation/remix-lib": "^0.2.9",
+    "@dexon-foundation/remix-solidity": "^0.1.11",
     "babel-eslint": "^7.1.1",
     "babel-plugin-transform-object-assign": "^6.22.0",
     "babel-plugin-yo-yoify": "^0.3.3",
@@ -37,11 +41,7 @@
     "notify-error": "^1.2.0",
     "npm-run-all": "^4.1.2",
     "onchange": "^3.3.0",
-    "remix-core": "^0.0.15",
-    "remix-lib": "^0.2.9",
-    "remix-solidity": "^0.1.11",
     "selenium-standalone": "^6.0.1",
-    "solc": "^0.4.13",
     "standard": "^7.0.1",
     "standard-reporter": "^1.0.5",
     "tape": "^4.6.0",

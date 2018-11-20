@@ -1,7 +1,7 @@
 'use strict'
 var style = require('./styles/basicStyles')
 var yo = require('yo-yo')
-var remixLib = require('remix-lib')
+var remixLib = require('@dexon-foundation/remix-lib')
 var ui = remixLib.helpers.ui
 
 var csjs = require('csjs-inject')

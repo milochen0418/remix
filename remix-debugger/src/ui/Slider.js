@@ -1,5 +1,5 @@
 'use strict'
-var remixLib = require('remix-lib')
+var remixLib = require('@dexon-foundation/remix-lib')
 var EventManager = remixLib.EventManager
 var yo = require('yo-yo')
 

@@ -70,7 +70,7 @@ Usage:
 
 Importing the library:
 ```Javascript
-const RemixTests = require('remix-tests');
+const RemixTests = require('@dexon-foundation/remix-tests');
 ```
 
 Running a single test object:

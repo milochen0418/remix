@@ -87,7 +87,7 @@ Using the API with remix extension NPM package
 The `remix-plugin` NPM package can be used to abstract the iframe layer:
 
 ```
-    var extension = require('remix-plugin')
+    var extension = require('@dexon-foundation/remix-plugin')
     
     extension.listen('<key>', '<type>', function () {})
     extension.call('<key>', '<type>', '<array of parameters>', function (error, result) {})

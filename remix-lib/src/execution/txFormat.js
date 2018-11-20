@@ -2,7 +2,7 @@
 var ethers = require('ethers')
 var helper = require('./txHelper')
 var asyncJS = require('async')
-var solcLinker = require('solc/linker')
+var solcLinker = require('@dexon-foundation/dsolc/linker')
 var ethJSUtil = require('ethereumjs-util')
 
 module.exports = {

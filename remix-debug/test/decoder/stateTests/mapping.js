@@ -1,8 +1,8 @@
-var remixLib = require('remix-lib')
+var remixLib = require('@dexon-foundation/remix-lib')
 var compilerInput = remixLib.helpers.compiler.compilerInput
 var TraceManager = remixLib.trace.TraceManager
 
-var compiler = require('solc')
+var compiler = require('@dexon-foundation/dsolc')
 var stateDecoder = require('../../../src/solidity-decoder/stateDecoder')
 var vmCall = require('../vmCall')
 

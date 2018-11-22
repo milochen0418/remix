@@ -35,7 +35,7 @@ function sendTx (vm, from, to, value, data, cb) {
 */
 function initVM (st, privateKey) {
   var utileth = require('ethereumjs-util')
-  var VM = require('ethereumjs-vm')
+  var VM = require('@dexon-foundation/ethereumjs-vm')
   var Web3Providers = remixLib.vm.Web3Providers
   var address = utileth.privateToAddress(privateKey)
   var vm = new VM({

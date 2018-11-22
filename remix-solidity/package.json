@@ -15,9 +15,9 @@
   "main": "./index.js",
   "dependencies": {
     "@dexon-foundation/dsolc": "^0.5.0",
+    "@dexon-foundation/ethereumjs-vm": "^2.3.3",
     "@dexon-foundation/remix-lib": "0.3.13",
     "ethereumjs-util": "^4.5.0",
-    "ethereumjs-vm": "2.4.0",
     "fast-async": "^6.1.2",
     "webworkify": "^1.2.1"
   },

@@ -15,6 +15,7 @@
   "main": "./index.js",
   "devDependencies": {
     "@dexon-foundation/dsolc": "^0.4.24",
+    "@dexon-foundation/ethereumjs-vm": "^2.3.3",
     "@dexon-foundation/remix-debug": "^0.0.15",
     "@dexon-foundation/remix-lib": "^0.2.9",
     "@dexon-foundation/remix-solidity": "^0.1.11",
@@ -34,7 +35,6 @@
     "ethereumjs-block": "^1.2.2",
     "ethereumjs-tx": "^1.1.1",
     "ethereumjs-util": "^4.5.0",
-    "ethereumjs-vm": "^2.3.3",
     "fast-async": "^6.1.2",
     "http-server": "^0.9.0",
     "nightwatch": "^0.9.5",

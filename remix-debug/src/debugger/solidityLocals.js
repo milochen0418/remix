@@ -1,4 +1,4 @@
-var remixLib = require('remix-lib')
+var remixLib = require('@dexon-foundation/remix-lib')
 var EventManager = remixLib.EventManager
 
 var localDecoder = require('../solidity-decoder/localDecoder')

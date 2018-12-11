@@ -1,6 +1,6 @@
 {
   "name": "@dexon-foundation/remix-tests",
-  "version": "0.0.21",
+  "version": "0.0.22",
   "description": "Tests for the Ethereum tool suite Remix",
   "main": "./src/index.js",
   "contributors": [
@@ -40,9 +40,9 @@
   },
   "dependencies": {
     "@dexon-foundation/dsolc": "^0.4.24",
-    "@dexon-foundation/remix-lib": "0.3.14",
-    "@dexon-foundation/remix-simulator": "0.0.9",
-    "@dexon-foundation/remix-solidity": "0.2.15",
+    "@dexon-foundation/remix-lib": "0.3.15",
+    "@dexon-foundation/remix-simulator": "0.0.10",
+    "@dexon-foundation/remix-solidity": "0.2.16",
     "async": "^2.6.0",
     "change-case": "^3.0.1",
     "colors": "^1.1.2",
@@ -55,8 +55,8 @@
     "yo-yoify": "latest"
   },
   "devDependencies": {
-    "mocha": "^5.1.0",
     "babel-preset-es2017": "^6.24.1",
+    "mocha": "^5.1.0",
     "standard": "^10.0.3"
   }
 }

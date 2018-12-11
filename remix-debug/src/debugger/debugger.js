@@ -1,6 +1,6 @@
 'use strict'
 var Ethdebugger = require('../Ethdebugger')
-var remixLib = require('remix-lib')
+var remixLib = require('@dexon-foundation/remix-lib')
 var EventManager = remixLib.EventManager
 var traceHelper = remixLib.helpers.trace
 

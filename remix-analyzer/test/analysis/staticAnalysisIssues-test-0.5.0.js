@@ -1,5 +1,5 @@
 var test = require('tape')
-var remixLib = require('remix-lib')
+var remixLib = require('@dexon-foundation/remix-lib')
 
 var StatRunner = require('../../src/solidity-analyzer')
 var compilerInput = remixLib.helpers.compiler.compilerInput

@@ -5,8 +5,8 @@ var StatRunner = require('../../src/solidity-analyzer')
 var compilerInput = remixLib.helpers.compiler.compilerInput
 
 const niv = require('npm-install-version')
-niv.install('solc@0.5.0')
-var compiler = niv.require('solc@0.5.0')
+niv.install('@dexon-foundation/dsolc@0.5.0')
+var compiler = niv.require('@dexon-foundation/dsolc@0.5.0')
 
 var fs = require('fs')
 var path = require('path')

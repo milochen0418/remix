@@ -14,32 +14,17 @@
   ],
   "main": "./index.js",
   "dependencies": {
-<<<<<<< HEAD
+    "@dexon-foundation/ethereumjs-vm": "^2.4.3",
+    "@dexon-foundation/remix-lib": "0.3.13",
     "ethereumjs-util": "^4.5.0",
-    "ethereumjs-vm": "2.4.0",
-    "fast-async": "^6.1.2",
-    "@dexon-foundation/remix-lib": "0.3.13"
+    "fast-async": "^6.1.2"
   },
   "devDependencies": {
     "@dexon-foundation/dsolc": "^0.5.0",
-=======
-    "@dexon-foundation/dsolc": "^0.4.24",
-    "@dexon-foundation/ethereumjs-vm": "^2.3.3",
-<<<<<<< HEAD
-    "@dexon-foundation/remix-lib": "0.3.13",
->>>>>>> Update versions
-=======
-    "@dexon-foundation/remix-lib": "0.3.14",
->>>>>>> Update versions
     "babel-eslint": "^7.1.1",
     "babel-plugin-transform-object-assign": "^6.22.0",
     "babel-preset-es2015": "^6.24.0",
     "babelify": "^7.3.0",
-<<<<<<< HEAD
-=======
-    "ethereumjs-util": "^4.5.0",
-    "fast-async": "^6.1.2",
->>>>>>> Update VM to support RAND opcode
     "notify-error": "^1.2.0",
     "standard": "^7.0.1",
     "standard-reporter": "^1.0.5",

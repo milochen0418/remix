@@ -14,8 +14,8 @@
   ],
   "main": "./index.js",
   "devDependencies": {
-    "@dexon-foundation/dsolc": "^0.4.24",
-    "@dexon-foundation/ethereumjs-vm": "^2.3.3",
+    "@dexon-foundation/dsolc": "^0.5.0",
+    "@dexon-foundation/ethereumjs-vm": "^2.4.3",
     "@dexon-foundation/remix-debug": "^0.0.15",
     "@dexon-foundation/remix-lib": "^0.2.9",
     "@dexon-foundation/remix-solidity": "^0.1.11",

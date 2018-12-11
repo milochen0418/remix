@@ -1,6 +1,6 @@
 {
   "name": "@dexon-foundation/remix-debug",
-  "version": "0.2.17",
+  "version": "0.2.18",
   "description": "Ethereum IDE and tools for the web",
   "contributors": [
     {
@@ -15,7 +15,7 @@
   "main": "./index.js",
   "dependencies": {
     "@dexon-foundation/ethereumjs-vm": "^2.4.3",
-    "@dexon-foundation/remix-lib": "0.3.13",
+    "@dexon-foundation/remix-lib": "0.3.17",
     "ethereumjs-util": "^4.5.0",
     "fast-async": "^6.1.2"
   },

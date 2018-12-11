@@ -1,6 +1,6 @@
 {
   "name": "@dexon-foundation/remix-simulator",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "description": "Ethereum IDE and tools for the web",
   "contributors": [
     {
@@ -14,7 +14,7 @@
   ],
   "main": "./index.js",
   "dependencies": {
-    "@dexon-foundation/remix-lib": "0.3.16",
+    "@dexon-foundation/remix-lib": "0.3.17",
     "ansi-gray": "^0.1.1",
     "body-parser": "^1.18.2",
     "color-support": "^1.1.3",

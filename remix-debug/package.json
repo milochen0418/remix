@@ -1,6 +1,6 @@
 {
   "name": "@dexon-foundation/remix-debug",
-  "version": "0.2.16",
+  "version": "0.2.17",
   "description": "Ethereum IDE and tools for the web",
   "contributors": [
     {

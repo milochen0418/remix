@@ -30,6 +30,7 @@ var codes = {
 
   // 0x20 range - crypto
   0x20: ['SHA3', 30, 2, 1, false],
+  0x2f: ['RAND', 36, 0, 1, false],
 
   // 0x30 range - closure state
   0x30: ['ADDRESS', 2, 0, 1, true],

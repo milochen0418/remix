@@ -45,6 +45,10 @@ module.exports = {
     return step.op === 'SHA3'
   },
 
+  isRANDInstruction: function (step) {
+    return step.op === 'RAND'
+  },
+
   newContextStorage: function (step) {
     return step.op === 'CREATE' || step.op === 'CALL'
   },
